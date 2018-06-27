@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MSquare</title>
+    <title>mSquare</title>
     <link rel="stylesheet" href="CSS/playGround.css">
+    <link rel="shortcut icon" href="T_icon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="wrapper">     
+    <div class="MSmenu">
+           <div class="menuBox"><input class="buttStyle" id="start" type="button" value="Start!"></div>
+            <div class="menuBox "><input class="buttStyle" id="check" type="button" value="Check!"></div>
+            <div class="menuBox "><input class="buttStyle" id="clear" type="button" value="Clear"></div>
+            <div class="menuBox"><input class="buttStyle" id="newOne" type="button" value="Move next!"></div>
+            <div class="menuBox"><input class="buttStyle" type="button" id="Calc" value="Here is the calculator!;)"></div>
+            <div class="menuBox fixed"><a href="https://en.wikipedia.org/wiki/Magic_square" target="_blank"> What is the Magic Square?</a></div>
+        </div>
+       
         <div class="MSbody">
             <div class="box"><input type="text"  id="n1"></div>
             <div class="box"><input type="text"  id="n2"></div>
@@ -20,16 +29,9 @@
             <div class="box"><input type="text"  id="n8"></div>
             <div class="box"><input type="text"  id="n9"></div>
         </div>
-
-        <div class="MSmenu">
-           <div class="Start"><input id="start" type="button" value="Start!"></div>
-            <div class="menuButton"><input id="check" type="button" value="Check!"></div>
-            <div class="menuButton"><input id="clear" type="button" value="Clear"></div>
-            <div class="menuButton"><input id="newOne" type="button" value="Move next!"></div>
-            <div><input type="button" value="Here is the calculator!;)"></div>
-            <div><a href="https://en.wikipedia.org/wiki/Magic_square"> What is the Magic Square?</a></div>
-        </div>
-    </div>
+  <div class="hiddenCalc"></div>
+       
+    
      <script src="js/mSquare.js"></script>
      
 </body>

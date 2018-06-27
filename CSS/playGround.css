@@ -1,7 +1,67 @@
-body{
+body {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
 }
+
+.MSmenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 370px;
+    height: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 3px solid #8000a7;
+    background-color: teal;
+
+}
+
+.menuBox {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.buttStyle {
+    border-radius: 20px 20px;
+    height: 30px;
+    padding: 0 15px 0 15px;
+    border: 3px outset;
+}
+
+.buttStyle:hover {
+    background-color: red;
+    color: yellow;
+    border: 3px outset;
+}
+
+.buttStyle:active {
+    border: 3px inset;
+}
+
+/*------link style-------*/
+
+.fixed {
+    height: 31px;
+}
+
+.MSmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.MSmenu a:hover {
+    font-size: 18px;
+    color: #dede00;
+}
+
+/*--^^^-link style-^^^--*/
 
 .MSbody {
     margin-top: 100px;
@@ -10,25 +70,12 @@ body{
     background-color: yellowgreen;
     border: 5px solid #cc2121;
 
-     }
+}
 
-.box{
+.box {
     background-color: teal;
     text-align: center;
     border: 1px solid green;
-}
-
-.MSmenu{
-    margin-top: 50px;
-    width: 300px;
-    height: 100px;
-    border: 3px solid #8000a7;
-    background-color: teal;
-  
-}
-.menuButton{
-    display: flex;
-   
 }
 
 .MSbody input {
@@ -40,11 +87,8 @@ body{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    color: #dede00;
-    
+
+.hiddenCalc {
+    display: none;
+    background-color: teal;
 }

@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.MSbody {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: yellowgreen;
+    border: 5px solid #cc2121;
+
+     }
+
+.box{
+    background-color: teal;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.MSmenu{
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+    border: 3px solid #8000a7;
+    background-color: teal;
+  
+}
+.menuButton{
+    display: flex;
+   
+}
+
+.MSbody input {
+    background-color: transparent;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: lighter 45px Tahoma;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #dede00;
+    
+}
